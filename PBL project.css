@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link {
+    position: absolute;
+    left: 45%;
+    bottom: 90%;
+}
+
+.nav-link li{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+    color:rgb(0, 132, 255);
+    font-size: 1.5em;
+    border-bottom: solid 2px rgb(0, 132, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    position:absolute;
+    bottom:92%;
+    left:6%;
+    font-size: 2em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.logo:hover {
+    cursor: pointer;
+    border-bottom: solid 1px rgb(250, 250, 250);
+
+    
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+    text-decoration:none;
+    color: rgb(0, 132, 255);
+    padding: 40px 20px 35px 20px;
+    margin-right: -10px;
+
+    
+}
+
+.nav a:hover{
+    background-color:rgb(0, 132, 255);
+    color: white;
+}
+
+.books {
+    display: list-item;
+    color:blue; 
+        
+}
+
+.searchbar {
+    position: absolute;
+    left: 35%;
+    margin-bottom: 30px;
+    width: 57%;
+}
+
+.searchbar input{
+    
+}
+
+.searchbar input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+    font-size: 1.3em;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0px 0px 5px;
+    border: none;
+ }
+
+.searchbar input[type=text]:focus {
+    width: 70%;
+  }
+
+
+article {
+    padding-top: 5px;
+}
+
+#search {
+    
+}
