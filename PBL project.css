@@ -76,7 +76,7 @@ html, body {
 
 .books {
     display: list-item;
-    color:blue;
+    color: rgb(0, 132, 255);;
         
 }
 
@@ -129,6 +129,14 @@ article {
 
 #submit:hover {
     background-color:rgb(0, 132, 255);
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+#submit:active{
+    background-color: rgb(4, 84, 160);
+    border-color: rgb(4, 84, 160);
     cursor: pointer;
     color: white;
 }
@@ -153,12 +161,13 @@ article {
     height: 30%;
     margin: 3%;
     text-align: center;
+    margin-left: 5%;
     
 }
 
 .list img{
     width: 200px;
-    height: auto;
+    height: 250px;
     transition: 0.3s;
   
 }
@@ -171,10 +180,41 @@ article {
 
 .list img:hover{
     width: 230px;
-    height: auto;
+    height: 280px;
 }
 
 ul{
     list-style: none;
+    
+}
+
+.book-text{
+    color:white;
+    display: none;
+    transition: 0.3s;
+    height:280px;
+    width:230px;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.contact button{
+    background-color: rgb(66, 202, 66);
+    padding: 3px;
+    margin:10px;
+    border-color: rgb(66, 202, 66);
+    border-radius: 5px;
+    font-size: 1.2em;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list img:active{
+    visibility: hidden;
+    transition: none;
     
 }
