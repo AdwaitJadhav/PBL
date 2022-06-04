@@ -76,11 +76,12 @@ html, body {
 
 .books {
     display: list-item;
-    color:blue; 
+    color:blue;
         
 }
 
 .searchbar {
+    margin-top: 1%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -146,5 +147,34 @@ article {
 }
 
 .list {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    display: inline-block;
+    height: 30%;
+    margin: 3%;
+    text-align: center;
+    
+}
+
+.list img{
+    width: 200px;
+    height: auto;
+    transition: 0.3s;
+  
+}
+
+.list:hover{
+    box-shadow: 0 16px 24px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+
+.list img:hover{
+    width: 230px;
+    height: auto;
+}
+
+ul{
+    list-style: none;
     
 }
