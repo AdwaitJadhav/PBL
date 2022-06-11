@@ -156,7 +156,7 @@ article {
 
 .list {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
-    transition: 0.3s;
+    transition: 0.8s;
     display: inline-block;
     height: 30%;
     margin: 3%;
@@ -189,7 +189,7 @@ ul{
 }
 
 .book-text{
-    color:white;
+    color:black;
     display: none;
     transition: 0.3s;
     height:280px;
