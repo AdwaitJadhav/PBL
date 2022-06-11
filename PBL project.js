@@ -53,20 +53,8 @@ $(document).ready(function(){
         });
     $(".list").mouseleave(function(){
         var a = $(this).index(".list");
-        $(".list").eq(a).css({"background-color":"white","height":"30%","width":"auto"});
-        $(".list-img").eq(a).css({"display":"block","height":"250px","width":"200px"});
-        $(".book-text").eq(a).css({"display":"none"});
-        
+
+        $(".list").eq(a).removeAttr("style");
+        $(".list-img").eq(a).removeAttr("style")
+        $(".book-text").eq(a).removeAttr("style");
         });
-
-    $(".list").mouseenter(function(){
-        var a = $(this).index(".list");
-        $("*[style]").removeAttr("style");
-
-        });
-            
-
-    });
-    
-    
-
