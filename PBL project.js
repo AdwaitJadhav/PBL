@@ -61,12 +61,8 @@ $(document).ready(function(){
 
     $(".list").mouseenter(function(){
         var a = $(this).index(".list");
-        $(".list-img").eq(a).css({"display":"block"});
-        $(".list").eq(a).css({"background-color":"white"});
-        $(".book-text").eq(a).css({"display":"none"});
-        $(".list").eq(a).animate({height:'300px',width:'230px'},"fast");
-        $(".list-img").eq(a).animate({height:'280px',width:'230px'},);
-            
+        $("*[style]").removeAttr("style");
+
         });
             
 
