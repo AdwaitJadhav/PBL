@@ -58,3 +58,14 @@ $(document).ready(function(){
         $(".list-img").eq(a).removeAttr("style")
         $(".book-text").eq(a).removeAttr("style");
         });
+    $(".department").hover(function(){
+        $(".dept").slideToggle("slow");
+    });
+            
+
+    });
+    
+    
+function year(){
+    let dept = document.getElementsByClassName()
+}
