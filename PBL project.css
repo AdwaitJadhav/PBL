@@ -7,7 +7,6 @@ html, body {
     padding: 0;
 }
 
-
 .nav-link {
     position: absolute;
     left: 45%;
@@ -101,11 +100,6 @@ html, body {
     border: none;
  }
 
-.searchbar input[type=text]:focus {
-    
-  }
-
-
 article {
     padding-top: 5px;
 }
@@ -188,6 +182,34 @@ ul{
     
 }
 
+.department{
+    margin-top:0px;
+}
+.dept {
+    position:absolute;
+    top: 62px;
+    right:9px;
+    margin-top:0px;
+    display:none;
+}
+
+.dept li{
+    display:list-item;
+    min-width:205px;
+    background-color:whitesmoke;
+    margin-top:0px;
+    font-size:0.75em;
+    text-align:center;
+    border-bottom:solid 1px;
+    
+}
+
+.dept li:hover{
+    background-color:rgb(4, 84, 160);
+    color:white;
+    cursor:pointer;
+}
+
 .book-text{
     color:black;
     display: none;
@@ -217,4 +239,15 @@ ul{
     visibility: hidden;
     transition: none;
     
+}
+
+footer {
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 0%;
+    margin-top: 3%;
+    padding-bottom: 15%;
+    display: none;
+
 }
